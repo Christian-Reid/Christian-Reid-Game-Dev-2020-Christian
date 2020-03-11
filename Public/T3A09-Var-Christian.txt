@@ -1,0 +1,34 @@
+<h1 align=center>T3A08 Loops by Christian</h1>                  
+
+<script>
+var myX = 3;
+
+document.writeln('myX is: '+myX)
+
+</script>
+
+<script>
+var myInt = 3;
+
+document.writeln('myInt is: '+myInt)
+
+
+</script>
+
+
+<script>
+var myRed = 6.7;
+
+document.writeln('myRed is: '+myRed)
+
+
+</script>
+
+
+<script>
+var myChan = G;
+
+document.writeln('myChan is: '+myChan)
+
+
+</script>

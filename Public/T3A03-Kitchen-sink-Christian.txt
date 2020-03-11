@@ -7,7 +7,7 @@ function myRunFunction(){
 
 </script>
 
-<h1 align=center>T3A03-Kitchen-Sink-liam.html</h1>
+<h1 align=center>T3A03-Kitchen-Sink-Christian.html</h1>
 
 <input type="text" id="myText01" value="5" ><br><br>
 
@@ -39,7 +39,7 @@ function myRunFunction(){
   document.getElementById('myDiv01').innerHTML += '<br> myArray contains: ' + myArray
 
   // 7. OBJECTS:
-  myObj + {myNum : 6, myName : 'liam'}
+  myObj + {myNum : 6, myName : 'Christian'}
   document.getElementById('myDiv01').innerHTML += '<br>myObj contains: ' + myObj.myName + ', '+ myObj.myNum
 
 }"><br><br>
