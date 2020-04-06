@@ -1,15 +1,12 @@
-<h1 align=center>T3A07-Decisions-by-Liam.html </h1>
+<h1 align=center>T3A07-Decisions-by-Christian.html </h1>
 <html>
 <body>
-<b> from 0 to 10 it works </b>
+<b> from 0 to 5 it work </b>
 <input Id="myText01" type=text value="5">
 <input type="button" value="Decision" onclick="{
 
  if (document.getElementById('myText01').value == 5){ 
  document.getElementById('myDiv01').innerHTML += '<br>It is a Five, input was: '+ document.getElementById('myText01').value
- }
-else if (document.getElementById('myText01').value == 6){
- document.getElementById('myDiv01').innerHTML += '<br>It is a Six, input was: '+ document.getElementById('myText01').value
  }
  else if (document.getElementById('myText01').value == 4){
  document.getElementById('myDiv01').innerHTML += '<br>It is a Four, input was: '+ document.getElementById('myText01').value
@@ -27,7 +24,9 @@ else if (document.getElementById('myText01').value == 6){
  document.getElementById('myDiv01').innerHTML += '<br>It is a Zero, input was: '+ document.getElementById('myText01').value
  }
  else {
-   document.getElementById('myDiv01').innerHTML = ''    
+   document.getElementById('myDiv01').innerHTML = ''
 
  }
 }">
+
+<div id="myDiv01">...</div>

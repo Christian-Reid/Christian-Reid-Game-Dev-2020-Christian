@@ -7,7 +7,7 @@
 </body>
 </html>
 
-<hr>
+
 <input Id="myText01" type=text value="Christian">
 <input type="button" value="Show 1" onclick="{
   document.getElementById('myDiv01').innerHTML = 'myText01 = '+ document.getElementById('myText01').value
@@ -15,9 +15,9 @@
 }">
 
 <div id="myDiv01">...</div>
-<hr>
+
 <b>This is not a useless button=></b><button type="button" onclick="alert('Not Useless button')">Uselessbutton</button>
-<hr>
+
 <html>
 <body>
 
@@ -88,10 +88,10 @@ Mouse over text plz</h1>
 <head>
 <script>
 function lighton() {
-  document.getElementById('myimage').src = "https://media3.giphy.com/media/3o7WIBR5Iwv04A1uOQ/giphy.gif?cid=790b761168d8391e2ff91c9e6aa27a06fec95fcc22ca7728&rid=giphy.gif";
+  document.getElementById('myimage').src = "https://img.buzzfeed.com/buzzfeed-static/static/2014-07/18/10/enhanced/webdr09/anigif_enhanced-buzz-22799-1405693809-7.gif?downsize=700:*&output-format=auto&output-quality=auto";
 }
 function lightoff() {
-  document.getElementById('myimage').src = "https://media3.giphy.com/media/3o7WIBR5Iwv04A1uOQ/giphy.gif?cid=790b761168d8391e2ff91c9e6aa27a06fec95fcc22ca7728&rid=giphy.gif";
+  document.getElementById('myimage').src = "https://img.buzzfeed.com/buzzfeed-static/static/2014-07/18/10/enhanced/webdr09/anigif_enhanced-buzz-22799-1405693809-7.gif?downsize=700:*&output-format=auto&output-quality=auto";
 }
 </script>
 </head>

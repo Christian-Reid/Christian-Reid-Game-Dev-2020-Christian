@@ -1,25 +1,19 @@
-<h1 align=center>T3A08 Loops by Christian</h1>
+<h1 align=center>T3A08-Loop-by-Christian.html </h1>
+<html>
+<body>
 
-<input id="myText01" type=text value="20">
+<input Id="myText01" type=text value="20">
 
 <input type="button" value="Loops" onclick="{
- document.getElementById('myDiv01').innerHTML =''  //clears it
+ document.getElementById('myDiv01').innerHTML = ''  //clears it
+ 
+ // Loop here
+ for(myX=0; myX <= document.getElementById('myText01').value; myX++){
+ document.getElementById('myDiv01').innerHTML += '<br>Loop #:'+ myX
 
-  for (myX=0; myX <= document.getElementById('myText01').value; myX++){
-    document.getElementByid('myDiv01').innerHTML += '<br>Loop #:' + myX
-    if (myX == 5){
-
-  document.getElementById('myDiv01').innerHTML +=' , Wow a five'
-}
-
-
-}    //end for loop
-
-
-
-
-
+ }// end for loop
 
 
 }">
-<div id="mydiv01">...</div>
+
+<div id="myDiv01">...</div>
