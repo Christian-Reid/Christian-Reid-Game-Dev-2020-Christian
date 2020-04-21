@@ -1,0 +1,22 @@
+<h1 align=center>T3A08-Loop-by-Liam.html </h1>
+<html>
+<body>
+
+<input Id="myText01" type=text value="20">
+
+<input type="button" value="Loops" onclick="{
+ document.getElementById('myDiv01').innerHTML = ''  //clears it
+ 
+ // Loop here
+ for(myX=0; myX <= document.getElementById('myText01').value; myX++){
+ document.getElementById('myDiv01').innerHTML += '<br>Loop #:'+ myX
+ 
+ }
+
+
+ }// end for loop
+
+
+}">
+
+<div id="myDiv01">...</div>

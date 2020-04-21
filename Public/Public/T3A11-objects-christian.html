@@ -1,0 +1,16 @@
+<h1 align=center>T3A11-Objects-Christian</h1>                                             
+
+<input id="myText01" type=text value="Christian">
+
+<input type="button" value="Show Object" onclick="{
+     myObject = {
+	'myName' : document.getElementById('myText01').value,
+	'myHairColor' : 'Brown',
+	'myNumber' : '17',
+}
+
+document.getElementById('myDiv01').innerHTML = myObject.myNumber + ' name : ' + myObject.myName + ' <br>HairColor : ' + myObject.myHairColor
+
+}">
+
+<div id="myDiv01">...</div>

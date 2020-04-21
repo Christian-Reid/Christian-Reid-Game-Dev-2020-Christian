@@ -1,0 +1,23 @@
+<script>
+Let myArray = new Array(20)
+myArray[0] = 'John'
+</script>
+
+<h1 align=center>T3A10-Arrays-Christian.html</h1>
+
+<input id='MyText01" type=text value="Christian"><br>
+<input id='MyText02" type=text value="Gary"><br>
+<input id='MyText03" type=text value="Yack"><br>
+
+<input type="button" value="Array Set" onclick+"{
+	document.getElementByID('myDiv01').innerHTML = '<br>myText01 = '+ document.getElementByid('myText01').value
+
+}">
+
+<input type="button" value="Array Show" onclick="{
+
+  document.getElementById('myDiv01').innerHTML = myArray[0]
+
+}"><br>
+
+<div id="myDiv01">...</div>

@@ -1,0 +1,126 @@
+<h1 align=center>T3A06-Input-Output-Function-Christian.html </h1>
+<html>
+<body>
+
+<button onclick="this.innerHTML=Date()">The current time?</button>
+
+</body>
+</html>
+
+
+<input Id="myText01" type=text value="Christian">
+<input type="button" value="Show 1" onclick="{
+  document.getElementById('myDiv01').innerHTML = 'myText01 = '+ document.getElementById('myText01').value
+
+}">
+
+<div id="myDiv01">...</div>
+
+<b>This is not a useless button=></b><button type="button" onclick="alert('Sike thats the wrong number')">Uselessbutton</button>
+
+<html>
+<body>
+
+<button id="btn1" type="button">Cool button</button>
+
+<p>Click the "Click me" button to say button:</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("btn1").type;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
+<html>
+<body> 
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:brown;width:60px;height:15px;padding:20px;">
+BIG BUTTON</div>
+
+<script>
+function mOver(obj) {
+  obj.innerHTML = "It works"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "BIG BUTTON"
+}
+</script>
+
+</body>
+</html> 
+<hr>
+<html>
+<head>
+
+<script>
+function mymessage() {
+  alert("Boo spooky alert");
+}
+</script>
+</head>
+
+<body onload="mymessage()">
+</body>
+
+</html>
+<html>
+<body>
+
+<h1 onmouseover="style.color='green'"
+onmouseout="style.color='blue'">
+Mouse over text</h1>
+
+</body>
+</html>
+<hr>
+<html>
+<head>
+<script>
+function lighton() {
+  document.getElementById('myimage').src = "https://img.buzzfeed.com/buzzfeed-static/static/2014-07/18/10/enhanced/webdr09/anigif_enhanced-buzz-22799-1405693809-7.gif?downsize=700:*&output-format=auto&output-quality=auto";
+}
+function lightoff() {
+  document.getElementById('myimage').src = "https://img.buzzfeed.com/buzzfeed-static/static/2014-07/18/10/enhanced/webdr09/anigif_enhanced-buzz-22799-1405693809-7.gif?downsize=700:*&output-format=auto&output-quality=auto";
+}
+</script>
+</head>
+
+<body>
+
+<img id="myimage" onmousedown="lighton()" onmouseup="lightoff()" src="bulboff.gif" width="150" height="230" />
+
+<p>Click on the SRC to make it work.</p>
+
+</body>
+</html>
+<hr>
+<html>
+<body>
+
+<h1 onmouseover="style.color='Grey'"
+<h1 onclick="this.innerHTML='POW!'">Click Me</h1>
+
+</body>
+</html>
+<hr>
+<html>
+<head>
+<script>
+function myFunction() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+</script>
+</head>
+<body>
+
+

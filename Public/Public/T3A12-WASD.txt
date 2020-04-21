@@ -1,0 +1,18 @@
+<body onkeydown="{
+   document.all.myText01.value = event.key
+ 
+   if (event.key == 'd') { // d = go right
+      document.getElementById('myImage01').style.left = parseInt(document.getElementById('myImage01').style.left) + 10 + 'px'
+   }
+
+   if (event.key == 's') { // s = go down
+      document.getElementById('myImage01').style.top = parseInt(document.getElementById('myImage01').style.top) - 10 + 'px'
+   }
+
+ }">
+
+<h2 align=center>T3A14-WASD-onKeyDown-by-Christian.html </h2><hr>
+
+<input id="myText01" type=text value=0 size=6 ><br>
+
+<img src="myImage01.png" id="myImage01" style="postion:relative; z-index:-1; left:0px; top:0px; height:100px; width:100px;">

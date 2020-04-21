@@ -1,0 +1,28 @@
+<h1 align=center>T3A08 Loops by Christian</h1>            
+
+<script>
+var myX = 3;
+var myInt = 3;
+var myReal = 6.7;
+var myName = 'Christian';
+var myChan = 'R';
+var myHeight = 6.3;
+var myCountry ='Canada';
+var myLastname ='Reid';
+
+document.writeln('myX is: '+myX + '<br>')
+
+document.writeln('myInt is: '+myInt + '<br>')
+
+document.writeln('myReal is: '+myReal + '<br>')
+
+document.writeln('myName is: '+myName + '<br>')
+
+document.writeln('myChan is: '+myChan + '<br>')
+
+document.writeln('myHeight is: '+myHeight + '<br>')
+
+document.writeln('myCountry is: '+myCountry + '<br>')
+
+document.writeln('myLastname is: '+myLastname + '<br>')
+</script>
