@@ -10,17 +10,4 @@
 <li><a href="T3A06%20christian.html">T3A06%20christian.html</a>
 <li><a href="T3A07.html">T3A07.html</a>
 <li><a href="T3A08.html">T3A08.html</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
-<li><a href="...">...</a>
 <li><a href="T4-final-level1-Christian.html">T4-final-level1-Christian.html</a>
