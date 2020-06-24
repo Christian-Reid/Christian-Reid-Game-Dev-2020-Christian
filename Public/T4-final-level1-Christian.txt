@@ -288,7 +288,7 @@ myBgObject = eval('document.body');
 
 
 
-<h2 align=center  style="background-color:yellow"> Game Base by ___Your Name Here ___</h2>
+<h2 align=center  style="background-color:yellow"> Game Base by ___Christian Reid ___</h2>
 
 
 
